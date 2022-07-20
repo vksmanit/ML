@@ -1,0 +1,14 @@
+#! /usr/bin/python3
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(0,10,100)
+y = np.sin(x)
+z = np.cos(x)
+
+# show plot #sine wave # with label and title
+plt.plot(x,y,'r+')
+plt.xlabel('angle')
+plt.ylabel('sine value')
+plt.title('Sine Wave')
+plt.show()
